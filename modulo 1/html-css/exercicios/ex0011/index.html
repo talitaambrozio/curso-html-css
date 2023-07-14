@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <!--Ordem das imagens: a base é a maior imagem, acima dela cada source vai diminuindo de tamanho, seguir a ordem pq se nao nao da certo, pensar na responsividade do site para melhor visualização do site no google-->
+        <source media="(max-width:750px )" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
