@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: gray;*/
+
+            /*obs: para simplificar a configuração de border podemos usar a shortcut seguindo a sequencia acima: width, style e color, como abaixo: */
+
+            border: 10 px solid gray;
+
+            /*podemos simplificar o padding e margin tambem usando shortcut*/
+            padding: 10px 10px 10px 10px;
+
+            margin: 20px auto 40px auto;
+           /* margin: auto; /*pra deixar a caixa centralizada */
+
+           /*             
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            /*obs: sempre usar essa sequencia na configuracao da margem, sentido horário, top, right, bottom e left*/
+        }
+    </style>
+    <title>Modelo de Caixa</title>
+</head>
+<body>
+    <h1>Exemplo de caixa Box Level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a></p>
+</body>
+</html>
