@@ -50,6 +50,11 @@ nav{
 
 main {
     background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 280px;/*mínimo de largura - 320px é a tela de celular antiga em pé*/
+    max-width: 800px;/*máximo de largura*/
+    margin: auto;
 }
 
 main article > h1{
